@@ -115,4 +115,31 @@ header {
   flex-wrap: wrap;
   align-content: space-around;
   background-color: #ffffff;
+  /* color: rgb(128 128 130); */
+  color: rgb(90 98 120);
+}
+.Flex-content-company p {
+  width: 350px;
+  padding: 2%;
+}
+.Flex-content-company img {
+  height: 15vh;
+  padding: 2%;
+  width: 30px;
+}
+.information1 {
+  width: 50%;
+}
+.information1 .list-company {
+  margin-top: 1.5em;
+  margin-left: 7.8rem;
+  color: #01aeef;
+}
+.information1 .lenguajes {
+  margin-top: 2.2rem;
+  margin-left: 6.28rem;
+}
+.information1 .lenguajes img {
+  float: left;
+  height: 3.056rem;
 }
