@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+h3 {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: auto;
+  justify-content: space-between;
+  background-image: url("./images/lineas-de-cogido.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px 100px;
+  padding-bottom: 0;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  width: 100%;
+}
+.info-factor {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+  align-items: stretch;
+  width: 100%;
+  border-bottom: 1px solid white;
+}
+.info-factor img {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.transformation {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: flex-start;
+}
+
+.centered-button {
+  font-style: normal;
+  font-weight: 100px;
+  font-size: 15px;
+  background: #01aef0;
+  color: white;
+  padding: 5px;
+  width: 120px;
+  border-radius: 7px;
+  height: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.contents {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  /* top: 1.2rem; */
+  margin-top: 1.8rem;
+  align-content: center;
+}
+.phones {
+  display: flex;
+  flex-direction: column;
+}
+.phones img {
+  width: 300px;
+  padding: 2px;
+}
+/*Body de la pagina somos desarrolladores*/
+.flex-content-developers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #01b0f3;
+  height: 100px;
+}
+.flex-content-developers h1 {
+  margin-right: 35px;
+}
+.developers {
+  color: white;
+}
+
+.xamaris {
+  height: 45px;
+}
+/* Listado de lo que ofrece la empresa */
+.Flex-content-company {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  background-color: #ffffff;
+}
