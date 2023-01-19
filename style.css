@@ -123,23 +123,165 @@ header {
   padding: 2%;
 }
 .Flex-content-company img {
-  height: 15vh;
   padding: 2%;
   width: 30px;
 }
 .information1 {
   width: 50%;
+  height: 29.05rem;
 }
+/* Contenido de la .list-company */
 .information1 .list-company {
-  margin-top: 1.5em;
-  margin-left: 7.8rem;
+  margin-top: 1.5rem;
+  margin-left: 4.7rem;
   color: #01aeef;
+  line-height: 7%;
+  white-space: nowrap;
 }
-.information1 .lenguajes {
-  margin-top: 2.2rem;
-  margin-left: 6.28rem;
+.information1 .lenguages {
+  margin-top: 3.2rem;
+  margin-left: 3.9rem;
 }
-.information1 .lenguajes img {
+.information1 .lenguages img {
   float: left;
-  height: 3.056rem;
+  height: 3.0625rem;
+  margin-top: -2%;
+}
+/* Parte derecha del contenedor de la empresa, que contiene video de youtube */
+.information2 {
+  background-color: rgb(241, 241, 241);
+  width: 50%;
+  height: 27.6rem;
+  color: rgb(59, 64, 78);
+}
+/* Posicionamiento del video de youtube */
+.information2 .video-youtube {
+  margin-top: 10%;
+  margin-left: 26%;
+  width: 24rem;
+  height: 20rem;
+}
+/* Propiedades que va contener el iframe del video cargado de youtube */
+.information2 .video-youtube iframe {
+  margin-left: 15%;
+  width: 200px;
+  height: 150px;
+  margin-top: -2%;
+}
+.information2 .video-youtube .text-youtube p {
+  margin-top: 5rem;
+  margin-left: -2rem;
+  margin-block-start: auto;
+  padding: 2%;
+}
+
+.information2 .video-youtube .text-youtube img {
+  float: left;
+  margin-right: 3%;
+  width: 2.8125rem;
+  padding: 2px;
+  margin-top: 2%;
+}
+/* Estilos de la imagen y texto miramos tu requeriemiento */
+.Flex-content-requirements {
+  display: flex;
+}
+
+.information3 {
+  background-color: rgb(1, 49, 98);
+  width: 50%;
+  height: 17.6875rem;
+  color: #ffffff;
+}
+.information3 .requirements {
+  margin-left: 45%;
+  margin-top: 5%;
+}
+.information3 .requirements img {
+  position: relative;
+  right: -8rem;
+  top: 2rem;
+  width: 120px;
+}
+.information3 .requirements h1 {
+  position: relative;
+  right: 0rem;
+  top: 0rem;
+}
+.information3 .requirements .space-requirements {
+  position: relative;
+  left: 6.25rem;
+  top: -2.25rem;
+}
+/* Para darle opacidad al texto miramos tu */
+.miramos-tu {
+  opacity: 0.8;
+}
+/* Estilos para la información de contacto de la empresa */
+.contact-information {
+  background-color: rgb(1, 49, 98);
+  width: 50%;
+  height: 17.6875rem;
+}
+.contact-form form {
+  margin-top: 3%;
+}
+
+/* Estilos para darle forma al contenido del formulario */
+.contact-form {
+  margin-left: 1.5rem;
+  margin-top: 5%;
+}
+/* agregando estilos a los input text */
+input[type="text"] {
+  width: 21.075rem;
+  padding: 10px;
+  margin: 8px 0;
+  padding-left: 35px;
+  border: 2px solid #bec7d5;
+  border-radius: 7px;
+  box-sizing: border-box;
+  outline: none;
+  color: white;
+  transition: ease-in-out, width 0.35s ease-in-out;
+}
+input[type="text"]:focus {
+  border-color: #1e90ff;
+  box-shadow: 0px 0px 6px #1e90ff;
+}
+/* Agregando las imagenes a los input placeholder */
+.nombre {
+  background: url("./images/Recurso\ 6_1.png") no-repeat scroll 0 0 transparent;
+  background-position: 5px 2px;
+  background-size: 22px;
+  height: 2rem;
+}
+.telefono {
+  background: url("./images/Recurso\ 7.png") no-repeat scroll 0 0 transparent;
+  background-position: 5px 2px;
+  background-size: 22px;
+  height: 2rem;
+}
+.email {
+  background: url("./images/Recurso\ 8.png") no-repeat scroll 0 0 transparent;
+  background-position: 5px 6px;
+  background-size: 22px;
+  height: 2rem;
+}
+
+/* Agregando estilos a el boton enviar */
+.boton {
+  background-color: #00aff0;
+  color: white;
+  border-color: rgb(1, 176, 243);
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  width: 150px;
+  height: 37px;
+  padding: 2%;
+  text-align: center;
+  align-items: center;
+  margin-right: 20%;
+  margin-left: 22%;
 }
